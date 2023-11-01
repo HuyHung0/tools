@@ -9,28 +9,43 @@
 This is a list of additional tools for kali linux.
 
 ## Install from apt
+```bash
 sudo apt install steghide
+
 sudo apt install ffmpeg -y
+
 sudo apt install audacity -y
+
 sudo apt install chromium -y
+
 sudo apt install ghidra -y
+
 sudo apt install gdb -y
+
 sudo apt install gimp -y
+```
+
 
 ## Install by downloading file
 stegseek
 
-curl -sSf https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb
-sudo apt install ./stegseek_0.6-1.deb -y
+```bash
 
+curl -sSf <https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb>
+
+sudo apt install ./stegseek_0.6-1.deb -y
+```
 download imagemagick
 
-https://imagemagick.org/script/download.php#linux
+<https://imagemagick.org/script/download.php#linux>
 
 ## Useful links for bookmarks in firefox
 
-https://stegonline.georgeom.net/upload
-https://gchq.github.io/CyberChef/
-https://dogbolt.org/
-https://ctftime.org/writeups
+<https://stegonline.georgeom.net/upload>
+
+<https://gchq.github.io/CyberChef/>
+
+<https://dogbolt.org/>
+
+<https://ctftime.org/writeups>
 
