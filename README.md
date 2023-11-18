@@ -39,9 +39,6 @@ curl -sSf <https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegse
 
 sudo apt install ./stegseek_0.6-1.deb -y
 ```
-download imagemagick
-
-<https://imagemagick.org/script/download.php#linux>
 
 
 ## Install python package
