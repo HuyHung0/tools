@@ -25,7 +25,8 @@ sudo apt install gdb -y
 
 sudo apt install gimp -y
 
-sudo apt install qemu-user qemu-user-static gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu binutils-aarch64-linux-gnu-dbg build-essential
+sudo apt install imagemagick -y
+sudo apt install qemu-user qemu-user-static gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu binutils-aarch64-linux-gnu-dbg build-essential -y
 ```
 
 
@@ -60,4 +61,6 @@ pip install pycryptodome
 <https://dogbolt.org/>
 
 <https://ctftime.org/writeups>
+
+<https://www.dcode.fr/en>
 
