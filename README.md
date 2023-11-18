@@ -1,6 +1,7 @@
 - [Additional tools for kali linux](#additional-tools-for-kali-linux)
   - [Install from apt](#install-from-apt)
   - [Install by downloading file](#install-by-downloading-file)
+  - [Install python package](#install-python-package)
   - [Useful links for bookmarks in firefox](#useful-links-for-bookmarks-in-firefox)
 
 
@@ -23,6 +24,8 @@ sudo apt install ghidra -y
 sudo apt install gdb -y
 
 sudo apt install gimp -y
+
+sudo apt install qemu-user qemu-user-static gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu binutils-aarch64-linux-gnu-dbg build-essential
 ```
 
 
@@ -38,6 +41,15 @@ sudo apt install ./stegseek_0.6-1.deb -y
 download imagemagick
 
 <https://imagemagick.org/script/download.php#linux>
+
+
+## Install python package
+```bash
+cd
+virtualenv --python3.11 venv
+source venv/bin/activate
+pip install pycryptodome
+```
 
 ## Useful links for bookmarks in firefox
 
